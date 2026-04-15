@@ -25,10 +25,11 @@ img_compare/
 ├── config.py          ← paths & constants
 ├── pipeline.py        ← image loading, metric computation, matrix generation
 ├── run.py             ← execute full pipeline
-└── utils/
-    ├── image_io.py        ← image loading & color space processing
-    ├── metrics.py         ← functions of the metrics
-    └── visualization.py   ← heatmap & result plotting
+├── image_io.py        ← image loading & color space processing
+├── metrics.py         ← functions of the metrics
+├── visualization.py   ← heatmap & result plotting
+├── 影像相似度分析.pdf  ← summary *chinese version
+└── Image Similarity Analysis.pdf ← summary of this project 
 ```
 
 ## 📊 Implemented Metrics
