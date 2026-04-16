@@ -25,10 +25,13 @@ img_compare/
 ├── config.py          ← paths & constants
 ├── pipeline.py        ← image loading, metric computation, matrix generation
 ├── run.py             ← execute full pipeline
-└── utils/
-    ├── image_io.py        ← image loading & color space processing
-    ├── metrics.py         ← functions of the metrics
-    └── visualization.py   ← heatmap & result plotting
+├── utils/
+|   ├── image_io.py        ← image loading & color space processing
+|   ├── metrics.py         ← functions of the metrics
+|   └── visualization.py   ← heatmap & result plotting
+└── docs/
+    ├── summary.pdf             ← summary of the project
+    └── summary_chinese.pdf     ← summary of the project *chinese version
 
 
 ## 📊 Implemented Metrics
