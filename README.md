@@ -20,7 +20,7 @@ This pipeline is designed to:
 
 
 ## 🏗️ Architecture
-
+```
 img_compare/
 ├── config.py          ← paths & constants
 ├── pipeline.py        ← image loading, metric computation, matrix generation
